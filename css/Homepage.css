@@ -99,7 +99,7 @@
 @media screen and (max-width:400px) {
     #top-header{
         display: flex;
-        gap: 8rem;
+        gap: 7rem;
         height: 9vh;
         background-color: #fff;
     }
