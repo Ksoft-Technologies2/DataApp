@@ -112,6 +112,7 @@
     }
     .callIcon > img{
         margin-top: 1.5rem;
+        margin-right: 1.5rem;
     }
     .text-icon > h4{
         margin-top: 1.5rem;
@@ -123,5 +124,20 @@
         height: 12vh;
         border-radius: 1.2rem;
         padding: 1rem;
+    }
+    .fundBtn{
+        margin-top: 0.6rem;
+        background-color: blue;
+        text-align: center;
+        padding: 0.65rem;
+        height: 6vh;
+        width: 35%;
+        border-radius: 1rem;
+    }
+    .fundBtn > a{
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
     }
 }
