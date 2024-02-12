@@ -70,7 +70,7 @@ a > h4{
     background-size: cover;
     object-fit: contain;
     height: 100vh;
-    width: 102%;
+    width: 104%;
    }
    /* h1{
     margin-left: -5rem;
@@ -81,12 +81,12 @@ a > h4{
    } */
    input{
     margin-left: -1rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
     width: 50%;
    }
    .btn{
     margin-left: -1rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
     width: 52%;
    }
 }
