@@ -103,6 +103,16 @@
         height: 9vh;
         background-color: #fff;
     }
+    .homeIcon > img{
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .textIcon{
+        margin-top: 1.3rem;
+    }
+    .callIcon > img{
+        margin-top: 1.5rem;
+    }
     .text-icon > h4{
         margin-top: 1.5rem;
     }
