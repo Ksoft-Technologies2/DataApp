@@ -99,11 +99,19 @@
 @media screen and (max-width:400px) {
     #top-header{
         display: flex;
-        gap: 7rem;
+        gap: 6rem;
         height: 9vh;
         background-color: #fff;
     }
     .text-icon > h4{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+    }
+    .fund-div{
+        display: flex;
+        gap: 5rem;
+        background: #fff;
+        height: 12vh;
+        border-radius: 1.2rem;
+        padding: 1rem;
     }
 }
