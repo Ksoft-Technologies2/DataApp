@@ -1,5 +1,5 @@
 .hero{
-    background: url("..//img/databg2.jpg");
+    background: url("..//img/databgg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ input{
 }
 @media screen and (max-width:600px) {
     .hero{
-        background: url("..//img/databg2.jpg");
+        background: url("..//img/databgg.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
