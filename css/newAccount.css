@@ -1,0 +1,86 @@
+.hero{
+    background: url("..//img/databg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    width: 102.5%;
+    margin-top: -1.3rem;
+    margin-left: -1.3rem;
+    margin-right: -5.5rem;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2rem;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    height: 5vh;
+    width: 18%;
+    margin-left: 34rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.btn{
+    text-decoration: none;
+}
+.btn > h5{
+    color: #fff;
+    font-size: 17px;
+    background-color: blue;
+    height: 5vh;
+    width: 18%;
+    padding: 0.5rem;
+    margin-left: 34rem;
+    border-radius: 2rem;
+    text-align: center;
+    transition: 3s;
+}
+.btn > h5:hover{
+    background-color: #fff;
+    color: #000;
+}
+@media screen and (max-width:600px) {
+    .hero{
+        background: url("..//img/databg2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: contain;
+        height: 100vh;
+        width: 106.3%;
+        margin-top: -1.3rem;
+        margin-left: -1.3rem;
+        margin-right: -5.5rem;
+    }
+    input{
+        border: none;
+        outline: none;
+        background-color: #fff;
+        height: 5vh;
+        width: 39%;
+        margin-left: 9rem;
+        border-radius: 2rem;
+        padding: 0.5rem;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn > h5{
+        color: #fff;
+        font-size: 17px;
+        background-color: blue;
+        height: 5vh;
+        width: 39%;
+        padding: 0.5rem;
+        margin-left: 9rem;
+        border-radius: 2rem;
+        text-align: center;
+    }
+}
