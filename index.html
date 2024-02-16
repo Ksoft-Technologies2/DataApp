@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div class="loader-bg">
+        <div class="loader"></div>
+    </div>
     <section class="hero">
         <h1>Welcome Back!</h1>
         <h2>Login To <br> IsaacData</h2>
@@ -17,6 +20,12 @@
             <a href="newAccount.html"><h4>New User? Create Account</h4></a>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+       setTimeout(function(){
+        $('.loader-bg').fadeToggle();
+       }, 4500);
+    </script>
     <script src="js/index.js"></script>
 </body>
 </html>
