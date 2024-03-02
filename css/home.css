@@ -20,7 +20,7 @@ body{
 .OverLay{
     background: navy;
     height: 35vh;
-    padding: 1rem;
+    padding: 1rem;      
 }
 .firstOverlayText{
     display: flex;
