@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: url("..//img/data2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    padding: 1rem;
+}
+.OverallDiv > h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 4rem;
+}
+.OverallDiv > p{
+    color: #fff;
+    text-align: center;
+}
+#myInput{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    width: 80%;
+    height: 9vh;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+.btn{
+    margin-left: 3rem !important;
+    margin-top: 1rem !important;
+    width: 80% !important;
+    height: 9vh !important;
+    border-radius: 1.5rem !important;
+    padding: 1rem !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}

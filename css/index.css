@@ -1,136 +1,27 @@
-.loader-bg{
-    position: fixed;
-    z-index: 999999;
-    background: #fff;
-    width: 100%;
-    height: 100%;
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.loader{
-    border: 0 solid transparent;
-     border-radius: 50%;
-     width: 150px;
-     height: 150px;
-     position: absolute;
-     top: calc(50vh - 75px);
-     left: calc(50vw - 75px);
+h5{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-.loader:before, .loader:after{
-    content: '';
-    border: 1em solid #ff5733;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
-    opacity: 0;
-}
-.loader:before{
-    animation-delay: .5s;
-}
-@keyframes loader {
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 0;
-    }
+h1,p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .hero{
-    background: url("..//img/databgg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: contain;
-    height: 100vh;
-    width: 102.5%;
-    margin-top: -1.3rem;
-    margin-left: -1.3rem;
-    margin-right: -5.5rem;
+    padding: 1rem;
 }
-h1{
-    color: #fff;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    padding-top: 9rem;
+.hero > img{
+    width: 100%;
+    justify-content: center;
 }
-h2{
-    color: #fff;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+.buttonDiv{
+    margin-left: 4rem;
 }
-input{
-    border: none;
-    outline: none;
-    background-color: #fff;
-    height: 5vh;
-    width: 18%;
-    margin-left: 34rem;
-    border-radius: 2rem;
-    padding: 0.5rem;
-}
-.btn{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 17px;
-    background-color: blue;
-    height: 8vh;
-    width: 18%;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    margin-left: 34rem;
-    border-radius: 2rem;
-    text-align: center;
-    transition: 3s;
-}
-.btn:hover{
-    background-color: #fff;
-    color: #000;
-}
-a{
-    text-decoration: none;
-}
-a > h4{
-    text-align: center;
-    color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-}
-@media screen and (max-width:400px) {
-   .hero{
-    background: url("..//img/data2.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: contain;
-    height: 100vh;
-    width: 104%;
-   }
-   /* h1{
-    margin-left: -5rem;
-    margin-top: -4rem;
-   }
-   h2{
-    margin-left: -5rem;
-   } */
-   input{
-    margin-left: -1rem;
-    margin-left: 6rem;
-    width: 50%;
-   }
-   .btn{
-    margin-left: -1rem;
-    margin-left: 6rem;
-    width: 52%;
-   }
+.buttonDiv > button{
+    margin-left: 2rem;
 }
